@@ -39,3 +39,4 @@ body{font-family:"Inter",sans-serif;background:#050505;color:#fff;overflow-x:hid
 form{display:flex;flex-direction:column;gap:15px}.input-group{display:grid;grid-template-columns:1fr 1fr;gap:15px}
 input,textarea{width:100%;padding:17px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;color:#fff;font-family:inherit;outline:none;resize:vertical}input:focus,textarea:focus{border-color:#00f7ff;box-shadow:0 0 15px rgba(0,247,255,.08)}form button{align-self:flex-start}
 footer{padding:50px 8%;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}footer p{color:#777;font-size:13px}.copyright{width:100%;text-align:center}
+@media(max-width:1000px){.hero-content{width:100%}.hero-3d{opacity:.3;right:0}.skills-grid,.projects-grid{grid-template-columns:repeat(2,1fr)}.about-container,.contact-container{grid-template-columns:1fr}}
