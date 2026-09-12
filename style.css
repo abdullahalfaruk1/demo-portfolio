@@ -12,3 +12,7 @@ body{font-family:"Inter",sans-serif;background:#050505;color:#fff;overflow-x:hid
 .hero h2{font-size:28px;color:#ddd;margin-bottom:20px}.hero-text{color:#999;max-width:600px;line-height:1.8;font-size:16px}
 .hero-buttons{display:flex;gap:15px;margin-top:35px}.btn{display:inline-block;padding:15px 28px;text-decoration:none;border-radius:8px;font-weight:600;transition:.3s;cursor:pointer;border:0}
 .primary{background:#00f7ff;color:#001012;box-shadow:0 0 25px rgba(0,247,255,.3)}.primary:hover{transform:translateY(-4px);box-shadow:0 0 40px rgba(0,247,255,.6)}
+.secondary{border:1px solid rgba(255,255,255,.2);color:#fff}.secondary:hover{border-color:#00f7ff;color:#00f7ff}
+.socials{display:flex;gap:25px;margin-top:35px}.socials a{color:#777;text-decoration:none;transition:.3s}.socials a:hover{color:#00f7ff}
+.hero-3d{position:absolute;right:10%;width:350px;height:350px;perspective:1000px;display:flex;align-items:center;justify-content:center}
+.glow{position:absolute;width:250px;height:250px;background:#00f7ff;filter:blur(120px);opacity:.25}
