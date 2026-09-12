@@ -16,3 +16,5 @@ body{font-family:"Inter",sans-serif;background:#050505;color:#fff;overflow-x:hid
 .socials{display:flex;gap:25px;margin-top:35px}.socials a{color:#777;text-decoration:none;transition:.3s}.socials a:hover{color:#00f7ff}
 .hero-3d{position:absolute;right:10%;width:350px;height:350px;perspective:1000px;display:flex;align-items:center;justify-content:center}
 .glow{position:absolute;width:250px;height:250px;background:#00f7ff;filter:blur(120px);opacity:.25}
+.cube{width:180px;height:180px;position:relative;transform-style:preserve-3d;animation:rotateCube 12s linear infinite}
+.face{position:absolute;width:180px;height:180px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:800;color:#00f7ff;border:2px solid rgba(0,247,255,.5);background:rgba(0,247,255,.03);box-shadow:inset 0 0 30px rgba(0,247,255,.08),0 0 25px rgba(0,247,255,.1)}
