@@ -69,3 +69,20 @@ document.getElementById("contactForm").addEventListener("submit", e => {
     alert(`Thanks ${name}! Your message has been received.`);
     e.target.reset();
 });
+
+const menuButton = document.querySelector(".menu-btn");
+const nav = document.querySelector(".navbar nav");
+menuButton.addEventListener("click", () => {
+    if (nav.style.display === "flex") nav.style.display = "none";
+    else {
+        nav.style.display = "flex";
+        nav.style.position = "absolute";
+        nav.style.top = "75px";
+        nav.style.left = "0";
+        nav.style.width = "100%";
+        nav.style.padding = "25px";
+        nav.style.flexDirection = "column";
+        nav.style.background = "#080808";
+        nav.style.textAlign = "center";
+    }
+});
