@@ -93,3 +93,8 @@ window.addEventListener("scroll", () => {
     sections.forEach(section => {
         if (window.scrollY >= section.offsetTop - 150) current = section.getAttribute("id");
     });
+    navLinks.forEach(link => {
+        link.style.color = "#aaa";
+        if (link.getAttribute("href") === "#" + current) link.style.color = "#00f7ff";
+    });
+});
