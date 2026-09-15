@@ -25,3 +25,47 @@ document.addEventListener("mousemove", e => {
     mouseX = e.clientX / window.innerWidth - .5;
     mouseY = e.clientY / window.innerHeight - .5;
 });
+
+
+function animate() {
+    requestAnimationFrame(animate);
+    particles.rotation.y += .0007;
+    particles.rotation.x += .0002;
+    sphere.rotation.x += .0005;
+    sphere.rotation.y += .001;
+    camera.position.x += (mouseX * .4 - camera.position.x) * .02;
+    camera.position.y += (-mouseY * .4 - camera.position.y) * .02;
+    camera.lookAt(scene.position);
+    renderer.render(scene, camera);
+}
+animate();
+
+window.addEventListener("resize", () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+const cards = document.querySelectorAll(".skill-card,.project-card,.timeline-item");
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+        }
+    });
+}, { threshold: .15 });
+
+cards.forEach(card => {
+    card.style.opacity = "0";
+    card.style.transform = "translateY(40px)";
+    card.style.transition = "opacity .7s ease,transform .7s ease";
+    observer.observe(card);
+});
+
+document.getElementById("contactForm").addEventListener("submit", e => {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    alert(`Thanks ${name}! Your message has been received.`);
+    e.target.reset();
+});
