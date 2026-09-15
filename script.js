@@ -19,3 +19,9 @@ const sphereGeometry = new THREE.IcosahedronGeometry(2.5, 2);
 const sphereMaterial = new THREE.MeshBasicMaterial({ color: 0x00f7ff, wireframe: true, transparent: true, opacity: .08 });
 const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
 scene.add(sphere);
+
+let mouseX = 0, mouseY = 0;
+document.addEventListener("mousemove", e => {
+    mouseX = e.clientX / window.innerWidth - .5;
+    mouseY = e.clientY / window.innerHeight - .5;
+});
