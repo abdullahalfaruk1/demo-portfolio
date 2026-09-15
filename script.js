@@ -86,3 +86,10 @@ menuButton.addEventListener("click", () => {
         nav.style.textAlign = "center";
     }
 });
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".navbar nav a");
+window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 150) current = section.getAttribute("id");
+    });
