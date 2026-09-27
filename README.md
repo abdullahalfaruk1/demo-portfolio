@@ -20,4 +20,12 @@
 </p>
 
 ---
+## 🧑‍💻 About
 
+Hi, I'm **Abdullah Al Faruk**, a Software Engineering student at **Daffodil International University**.
+
+I enjoy building websites, applications, and technology projects. I'm continuously improving my skills in programming, web development, databases, and cybersecurity.
+
+My goal is to become a professional software developer and turn ideas into useful digital solutions.
+
+---
