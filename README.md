@@ -29,3 +29,14 @@ I enjoy building websites, applications, and technology projects. I'm continuous
 My goal is to become a professional software developer and turn ideas into useful digital solutions.
 
 ---
+## 🚀 Portfolio
+
+This website is my personal developer portfolio where I showcase:
+
+• My technical skills
+• Featured projects
+• Educational background
+• Software engineering journey
+• Contact information
+
+---
