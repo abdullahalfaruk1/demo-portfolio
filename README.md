@@ -34,9 +34,13 @@ My goal is to become a professional software developer and turn ideas into usefu
 This website is my personal developer portfolio where I showcase:
 
 • My technical skills
+
 • Featured projects
+
 • Educational background
+
 • Software engineering journey
+
 • Contact information
 
 ---
