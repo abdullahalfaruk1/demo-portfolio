@@ -59,12 +59,17 @@ This website is my personal developer portfolio where I showcase:
 ---
 ##🛠️ Technologies Used
  
-Technology	    Purpose
+Technology	    |    Purpose   
 
-🌐 HTML5	    Website structure
 
-🎨 CSS3	Styling, layouts & animations
+🌐 HTML5	      |   Website structure
 
-⚡ JavaScript	Interactivity & dynamic behavior
 
-📱 Responsive Design	Mobile & desktop compatibility
+🎨 CSS3	        |   Styling,layouts & animations
+
+
+⚡ JavaScript	  | Interactivity & dynamic behavior
+
+
+📱 Responsive 
+    Design      |	Mobile & desktop compatibility
