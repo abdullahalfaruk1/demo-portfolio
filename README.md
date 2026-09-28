@@ -46,8 +46,12 @@ This website is my personal developer portfolio where I showcase:
 ---
 
 ## 🎯 Goals
-Showcase my software development projects
-Present my technical skills and technologies
-Share my academic background
-Build a professional online presence
-Document my growth as a Software Engineering student
+• Showcase my software development projects
+
+• Present my technical skills and technologies
+
+• Share my academic background
+
+• Build a professional online presence
+
+• Document my growth as a Software Engineering student
