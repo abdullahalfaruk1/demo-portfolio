@@ -57,9 +57,14 @@ This website is my personal developer portfolio where I showcase:
 • Document my growth as a Software Engineering student
 
 ---
-🛠️ Technologies Used
-Technology	Purpose
-🌐 HTML5	Website structure
+##🛠️ Technologies Used
+ 
+Technology	    Purpose
+
+🌐 HTML5	    Website structure
+
 🎨 CSS3	Styling, layouts & animations
+
 ⚡ JavaScript	Interactivity & dynamic behavior
+
 📱 Responsive Design	Mobile & desktop compatibility
