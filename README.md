@@ -57,7 +57,7 @@ This website is my personal developer portfolio where I showcase:
 • Document my growth as a Software Engineering student
 
 ---
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
  
 Technology	    |    Purpose   
 
