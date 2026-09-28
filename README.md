@@ -59,7 +59,7 @@ This website is my personal developer portfolio where I showcase:
 ---
 ## 🛠️ Technologies Used
  
-Technology	    |    Purpose   
+#### Technology	    |    #### Purpose   
 
 
 🌐 HTML5	      |   Website structure
